@@ -1,0 +1,203 @@
+.logo {
+  height: auto;
+  width: 42%;
+  background-color: rgb(22, 130, 163);
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.navegacao {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+}
+
+.praia{
+  max-width: 120%;
+  max-height: 120%;
+}
+
+.container {
+  max-width: 80%;
+  height: 80%;
+  display: inline-block;
+  position: relative;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.texto-sobre {
+  margin-left: 4%;
+  font-size: 25px;
+  margin-right: 4%;
+  background-color: rgb(200, 210, 231);
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5%;
+}
+
+.video {
+  background-color: rgb(200, 210, 231);
+  padding: 15px;
+  max-width: 100%;
+  max-height: auto;
+  margin-left: 4%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+}
+
+.texto-sobre-mais {
+  font-size: 25px;
+  margin-right: 4%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: rgb(200, 210, 231);
+  border-radius: 5px;
+  padding: 15px;
+  max-width: 55%;
+}
+
+.video-texto {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(124, 151, 226);
+  border-radius: 5px;
+  border-color: rgb(124, 151, 226);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 35%;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(72, 114, 230);
+  border-color: rgb(6, 12, 27);
+}
+
+.container p {
+  position: absolute;
+  top: 70%;
+  right: 70%;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 15px;
+  background-color: rgb(200, 210, 231);
+  max-width: 100%;
+  margin-left: 4%;
+  margin-right: 4%;
+  border-radius: 5px;
+}
+
+
+.borace {
+  max-width: 100%;
+  max-height: 1000px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  padding: 5px;
+}
+
+.mapa {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 100%;
+  max-height: 100%;
+  width: 1440px;
+  height: 300px;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  display: flex;
+  justify-content: center;
+}
+
+.formulario {
+  font-style: oblique;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 5%;
+}
+
+input {
+  height: 25px;
+}
+
+.input-text {
+  margin-bottom: 5%;
+  width: 300px;
+}
+
+.input-button {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(124, 151, 226);
+  border-radius: 5px;
+  border-color: rgb(124, 151, 226);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 40%;
+  
+}
+
+.input-button:hover {
+  cursor: pointer;
+  background-color: rgb(72, 114, 230);
+  border-color: rgb(6, 12, 27);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
